@@ -96,26 +96,15 @@ button:active::after {
 }
 
 #enviar-nome {
-    background-color: #28a745; /* Cor do botão Enviar */
+    background-color: #f5eff2; /* Cor do botão Enviar */
+    font-weight: bold;
 }
 
 #enviar-nome:hover {
-    background-color: #218838; /* Cor ao passar o mouse */
+    background-color: #f7f1f4; /* Cor ao passar o mouse */
+    font-weight: bold;
 }
 
-.btPresenca {
-    background-image: url('48167.png'); /* Substitua pelo URL da sua imagem */
-    background-size: cover;
-    height: 50px; /* Defina uma altura fixa para igualar os outros botões */
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    outline: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 16px;
-}
 
 #particles-js {
     position: absolute;
@@ -125,4 +114,12 @@ button:active::after {
     left: 0;
     z-index: -1; /* Coloca as partículas atrás do conteúdo */
 }
+
+.hidden {
+    display: none;
+}
+
+
+
+
 
