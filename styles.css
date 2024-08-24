@@ -1,55 +1,75 @@
+* {
+    box-sizing: border-box; /* Ajusta o box model para todos os elementos */
+}
+
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
-    background-image: url('https://via.placeholder.com/1500x1000'); /* Substitua pelo URL do seu fundo */
-    background-size: cover;
-    background-position: center;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom right, #f1eaf3, #e79fd2); /* Gradiente de fundo */
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    color: #fff; /* Cor do texto */
+    
 }
 
 .container {
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px;
+    background-color: rgba(224, 149, 208, 0.9); /* Fundo branco com transparência */
+    padding: 30px;
     border-radius: 15px;
     text-align: center;
     width: 90%;
-    max-width: 400px;
+    max-width: 450px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Sombra suave */
 }
 
 h1 {
-    color: #333;
+    font-size: 28px;
     margin-bottom: 20px;
-    font-size: 24px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Sombra no texto */
 }
 
 .buttons {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 15px; /* Espaçamento entre os botões */
 }
 
 button {
-    padding: 12px;
+    padding: 15px;
     font-size: 18px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    transition: background-color 0.3s, transform 0.3s;
+    transition: all 0.3s ease; /* Transição suave */
     width: 100%;
+    position: relative; /* Para a animação de clique */
+    overflow: hidden; /* Para esconder a animação de fundo */
+    background-color: #f1eaf3; /* Cor de fundo padrão */
+    font-weight: bold;
+}
+
+button::after {
+    content: ''; /* Adiciona um pseudo-elemento para animação */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2); /* Efeito de brilho ao clicar */
+    transform: scale(0);
+    border-radius: 10px;
+    transition: transform 0.3s ease; /* Transição suave */
 }
 
 button:hover {
-    background-color: #007bff;
-    color: white;
-    transform: scale(1.05);
+    background-color: rgba(224, 149, 208, 0.9); /* Cor ao passar o mouse */
 }
 
-button:active {
-    transform: scale(1);
+button:active::after {
+    transform: scale(1); /* Ativa a animação de clique */
 }
 
 .hidden {
@@ -67,20 +87,42 @@ button:active {
     width: calc(100% - 22px);
     border-radius: 5px;
     border: 1px solid #ccc;
+    transition: border 0.3s; /* Transição na borda */
+}
+
+#form-confirmacao input:focus {
+    border-color: #d4dfba; /* Borda azul ao focar no input */
+    outline: none; /* Remove o contorno padrão */
 }
 
 #enviar-nome {
-    padding: 10px;
-    font-size: 16px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    background-color: #28a745;
-    color: white;
-    transition: background-color 0.3s;
-    width: 100%;
+    background-color: #28a745; /* Cor do botão Enviar */
 }
 
 #enviar-nome:hover {
-    background-color: #218838;
+    background-color: #218838; /* Cor ao passar o mouse */
 }
+
+.btPresenca {
+    background-image: url('48167.png'); /* Substitua pelo URL da sua imagem */
+    background-size: cover;
+    height: 50px; /* Defina uma altura fixa para igualar os outros botões */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Coloca as partículas atrás do conteúdo */
+}
+
