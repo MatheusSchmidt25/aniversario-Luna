@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://via.placeholder.com/1500x1000'); /* Substitua pelo URL do seu fundo */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+button {
+    padding: 12px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #007bff;
+    color: white;
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(1);
+}
+
+.hidden {
+    display: none;
+}
+
+#form-confirmacao {
+    margin-top: 20px;
+}
+
+#form-confirmacao input {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    width: calc(100% - 22px);
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#enviar-nome {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #28a745;
+    color: white;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+#enviar-nome:hover {
+    background-color: #218838;
+}
