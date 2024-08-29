@@ -1,0 +1,74 @@
+/* Estilos gerais */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom right, #f1eaf3, #e79fd2); /* Gradiente de fundo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('fundo.jpg');
+    background-size: cover; /* Ajusta a imagem para cobrir todo o body */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+}
+
+/* Estilos para o container */
+.container {
+    background-color: #EACBBF;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+/* Estilos para o título */
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Estilos para o endereço */
+.address {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #666;
+    font-weight: bold;
+}
+
+.btLocal{
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Transição suave */
+    width: 100%;
+    position: relative; /* Para a animação de clique */
+    overflow: hidden; /* Para esconder a animação de fundo */
+    background-color: #FFF8F5; /* Cor de fundo padrão */
+    font-weight: bold;
+}
+
+.btVoltar{
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Transição suave */
+    width: 100%;
+    position: relative; /* Para a animação de clique */
+    overflow: hidden; /* Para esconder a animação de fundo */
+    background-color: #FFF8F5; /* Cor de fundo padrão */
+    font-weight: bold;
+}
+
+
+
+
+

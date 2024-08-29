@@ -15,26 +15,16 @@
         <div class="container">
             <h1>Bem-vindo ao Aniversário da Luna!</h1>
             <div class="buttons">
-                <button class="btPresenca" id="confirmar-presenca">Confirmar Presença</button>
-                <button class="btLocalizacao" id="localizacao">Localização</button>
+                <button onclick="abrirPage()" class="btPresenca" >Confirmar Presença</button>
+                <button onclick="abrirPageLocalizacao()" class="btLocalizacao" id="localizacao">Localização</button>
                 <button class="btPresente" id="sugestao-presentes">Sugestão de Presentes</button>
             </div>
-
-            <div id="form-confirmacao" class="hidden">
-                <h2>Confirme sua Presença</h2>
-                <input type="text" id="nome" placeholder="Digite seu nome" required>
-                <button id="enviar-nome">Enviar</button>
-            </div>
-
             <div id="form-localizacao" class="hidden">
                 <h2>Endereço: R. Espaço Verde, 693 - Pioneiros Catarinenses</h2>
-                <button id="abrir-localizacao">Abrir Localização</button>
+                <button onclick="">Abrir Localização</button>
             </div>
         </div>
-    </div>
-    <div id="particles-js"></div>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    </div>   
     <script src="script.js"></script>
 </body>
 </html>
