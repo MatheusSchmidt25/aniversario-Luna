@@ -35,10 +35,9 @@ function abrirLocalizacao(){
     window.open(linkLocalizacao, '_blank'); // Abre o link em uma nova aba
 }
 
-document.getElementById('sugestao-presentes').addEventListener('click', function() {
-    const linkLocalizacao = "https://www.kabum.com.br/produto/238671/console-playstation-5-sony-ssd-825gb-controle-sem-fio-dualsense-com-midia-fisica-branco-1214a?utm_id=21416437425&gad_source=1&gclid=CjwKCAjw5qC2BhB8EiwAvqa41p2zT_zS6Aslev5TaW5GzjazwZXPLlKKMH7N5TezXOgRi3zGhca8aRoCAKkQAvD_BwE"; 
-    window.open(linkLocalizacao, '_blank'); // Abre o link em uma nova aba
-});
+function abrirPageSugestao(){
+    window.location.href = 'pageSugestao.html';
+}
 
 
 

@@ -8,7 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url('fundoBebe.png');
+    background-image: url('fundoo.png');
     background-size: cover; /* Ajusta a imagem para cobrir todo o body */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Impede a repetição da imagem */
@@ -16,7 +16,8 @@ body {
 
 /* Estilos para o container */
 .container {
-    background-color: #EACBBF;
+    background-color: transparent;
+    border: 4px solid #ffffff; 
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;

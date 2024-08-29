@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('sugestao.png');
+    background-size: cover; /* Ajusta a imagem para cobrir todo o body */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+    background-position: left center;
+}
+.btVoltar{
+    height: 70px;
+    width: 200px;
+    margin-top: 700px;
+    padding: 10px;
+    background-color: #a7568c;
+    color: #000000;
+    border: 4px;
+    border-radius: 4px;
+    font-size: 25px;
+    cursor: pointer;
+    font-weight: bold;
+}

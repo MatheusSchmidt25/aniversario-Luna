@@ -11,23 +11,13 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url('fundoBebe.png');
-    background-size: cover; /* Ajusta a imagem para cobrir todo o body */
+    background-image: url('fundoEline.png');
+    background-size: contain; /* Ajusta a imagem para cobrir todo o body */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Impede a repetição da imagem */
 }
 
-.profile-picture {
-    width: 200px; /* Tamanho do círculo */
-    height: 200px; /* Tamanho do círculo */
-    border-radius: 50%; /* Cria a forma circular */
-    overflow: hidden; /* Garante que a imagem não saia do círculo */
-    border: 4px solid #ecc9df; /* Cor da borda do círculo */
-    margin: 20px auto; /* Centraliza o círculo horizontalmente e adiciona margem vertical */
-    background-image: url('luninha.jpeg'); /* Caminho da imagem */
-    background-size: cover; /* Ajusta a imagem para cobrir todo o círculo */
-    background-repeat: no-repeat; /* Impede que a imagem se repita */
-}
+
 
 h1 {
     font-size: 28px;
@@ -38,7 +28,7 @@ h1 {
 .buttons button {
     width: 120px; /* Defina a largura dos botões */
     height: 120px; /* Defina a altura dos botões */
-    border: 4px solid #ffffff; /* Define a borda dos botões */
+    border: 4px transparent; /* Define a borda dos botões */
     border-radius: 10px; /* Arredonda os cantos dos botões */
     background-color: transparent; /* Torna o fundo dos botões transparente */
     color: #030303; /* Cor do texto dos botões */
@@ -58,6 +48,7 @@ h1 {
 
 .container {
     text-align: center;
+    margin-top: 540px;
 }
 .icon-text-button .icon {
     width: 15px; /* Define a largura da imagem */
