@@ -31,7 +31,7 @@ function abrirPageLocalizacao(){
 }
 
 function abrirLocalizacao(){
-    const linkLocalizacao = "https://www.google.com/maps/dir//R.+Espa%C3%A7o+Verde,+693+-+Pioneiros+Catarinenses,+Cascavel+-+PR,+85805-654/@-24.9795808,-53.4811135,19.08z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94f3d419871347b9:0x1f0246b635e0dd76!2m2!1d-53.4806472!2d-24.9795021?entry=ttu&g_ep=EgoyMDI0MDgyMS4wIKXMDSoASAFQAw%3D%3D"; // Substitua pelo link da sua localização
+    const linkLocalizacao = "https://www.google.com/maps/place/Ohana+Festas+e+Eventos/@-24.9574924,-53.4260786,21z/data=!4m20!1m13!4m12!1m4!2m2!1d-53.4845654!2d-24.988667!4e1!1m6!1m2!1s0x94f3d4f3b27a953b:0xf4f5c3fa95826246!2sOhana+Festas+e+Eventos!2m2!1d-53.4257306!2d-24.9574271!3m5!1s0x94f3d4f3b27a953b:0xf4f5c3fa95826246!8m2!3d-24.9574204!4d-53.4257439!16s%2Fg%2F11c2qjn7h5?entry=ttu&g_ep=EgoyMDI0MDgyNi4wIKXMDSoASAFQAw%3D%3D"; // Substitua pelo link da sua localização
     window.open(linkLocalizacao, '_blank'); // Abre o link em uma nova aba
 }
 

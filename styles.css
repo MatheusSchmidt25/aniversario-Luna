@@ -11,107 +11,10 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url('fundo.jpg');
+    background-image: url('fundoBebe.png');
     background-size: cover; /* Ajusta a imagem para cobrir todo o body */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Impede a repetição da imagem */
-}
-
-
-
-h1 {
-    font-size: 28px;
-    margin-bottom: 20px;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Sombra no texto */
-}
-
-.btPresenca{
-    width: 120px; /* Defina a largura do botão */
-    height: 120px; /* Defina a altura do botão */
-    margin-left: 40px;
-    border: none; /* Remove a borda padrão do botão */
-    padding: 0; /* Remove o preenchimento interno */
-   
-    cursor: pointer; /* Muda o cursor para uma mão quando sobre o botão */
-}
-.icon-text-button .icon {
-    width: 15px; /* Define a largura da imagem */
-    height: 15px; /* Define a altura da imagem */
-    margin-right: 10px; /* Adiciona espaço entre a imagem e o texto */
-}
-.icon-text-button .text {
-    font-weight: bold; /* Define o texto em negrito (ajuste conforme necessário) */
-}
-
-
-button {
-    padding: 15px;
-    font-size: 18px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: all 0.3s ease; /* Transição suave */
-    width: 100%;
-    position: relative; /* Para a animação de clique */
-    overflow: hidden; /* Para esconder a animação de fundo */
-    background-color: #FFF8F5; /* Cor de fundo padrão */
-    font-weight: bold;
-}
-
-
-
-
-
-
-
-.hidden {
-    display: none;
-}
-
-#form-confirmacao {
-    margin-top: 20px;
-}
-
-#form-confirmacao input {
-    padding: 10px;
-    font-size: 16px;
-    margin-bottom: 10px;
-    width: calc(100% - 22px);
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    transition: border 0.3s; /* Transição na borda */
-}
-
-#form-confirmacao input:focus {
-    border-color: #d4dfba; /* Borda azul ao focar no input */
-    outline: none; /* Remove o contorno padrão */
-}
-
-#enviar-nome {
-    background-color: #f5eff2; /* Cor do botão Enviar */
-    font-weight: bold;
-}
-
-#enviar-nome:hover {
-    background-color: #f7f1f4; /* Cor ao passar o mouse */
-    font-weight: bold;
-}
-
-#particles-js {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: -1; /* Coloca as partículas atrás do conteúdo */
-}
-
-.content-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100%; /* Garante que o conteúdo seja centralizado verticalmente */
 }
 
 .profile-picture {
@@ -123,9 +26,74 @@ button {
     margin: 20px auto; /* Centraliza o círculo horizontalmente e adiciona margem vertical */
     background-image: url('luninha.jpeg'); /* Caminho da imagem */
     background-size: cover; /* Ajusta a imagem para cobrir todo o círculo */
-
     background-repeat: no-repeat; /* Impede que a imagem se repita */
 }
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Sombra no texto */
+}
+
+.buttons button {
+    width: 120px; /* Defina a largura dos botões */
+    height: 120px; /* Defina a altura dos botões */
+    border: 4px solid #ffffff; /* Define a borda dos botões */
+    border-radius: 10px; /* Arredonda os cantos dos botões */
+    background-color: transparent; /* Torna o fundo dos botões transparente */
+    color: #030303; /* Cor do texto dos botões */
+    font-size: 18px; /* Tamanho da fonte dos botões */
+    font-weight: bold; /* Peso da fonte dos botões */
+    cursor: pointer; /* Muda o cursor para uma mão quando sobre o botão */
+    padding: 15px; /* Adiciona espaço interno aos botões */
+    transition: all 0.3s ease; /* Transição suave para todas as propriedades */
+}
+
+.buttons {
+    display: flex; /* Usa flexbox para alinhar os botões lado a lado */
+    justify-content: center; /* Centraliza os botões horizontalmente */
+    gap: 20px; /* Espaço entre os botões */
+    margin-top: 20px; /* Espaço acima dos botões */
+}
+
+.container {
+    text-align: center;
+}
+.icon-text-button .icon {
+    width: 15px; /* Define a largura da imagem */
+    height: 15px; /* Define a altura da imagem */
+    margin-right: 10px; /* Adiciona espaço entre a imagem e o texto */
+}
+.icon-text-button .text {
+    font-weight: bold; /* Define o texto em negrito (ajuste conforme necessário) */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -8,7 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url('fundo.jpg');
+    background-image: url('fundoBebe.png');
     background-size: cover; /* Ajusta a imagem para cobrir todo o body */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Impede a repetição da imagem */

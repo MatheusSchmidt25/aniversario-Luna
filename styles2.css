@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url('fundo.jpg');
+    background-image: url('fundoo.png');
     background-size: cover; /* Ajusta a imagem para cobrir todo o body */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Impede a repetição da imagem */
@@ -22,6 +22,8 @@ body {
     padding: 20px;
     text-align: center;
     width: 300px;
+    background-color: transparent;
+    border: 4px solid #ffffff; 
 }
 
 /* Estilos para o título */
