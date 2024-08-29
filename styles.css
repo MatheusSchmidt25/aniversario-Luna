@@ -11,8 +11,8 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url('fundoEline.png');
-    background-size: contain; /* Ajusta a imagem para cobrir todo o body */
+    background-image: url('telaPrincipal.png');
+    background-size: cover; /* Ajusta a imagem para cobrir todo o body */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Impede a repetição da imagem */
 }
