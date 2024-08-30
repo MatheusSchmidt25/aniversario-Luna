@@ -23,39 +23,39 @@ body {
     font-style: normal;
     text-align: center;
     color: #FFC7C7;
-    font-size: 65px;
-    margin-top: -10px;
+    font-size: 50px;
+    margin-top: -20px;
 }
 
 .textoPrincesa{
     text-align: center;
     color:#736356;
-    font-size: 25px;
-    
+    font-size: 20px;
+    margin-top: -20px;
 }
 
 .container2{
     text-align: center;
     font-weight: bold;
-    margin-left: 20px ;
     display: flex;
     padding: 10px;
     font-size: 25px;
 }
 
 .container2 > div {
+    margin-top: 80px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #FFC7C7; /* Cor de fundo para visualização */
     border-radius: 25px; /* Bordas arredondadas */
     padding: 10px 20px; /* Espaço interno */
-    margin: 0 10px; /* Espaçamento entre as divs */
+    margin: 0 7px; /* Espaçamento entre as divs */
     text-align: center; /* Alinha o texto ao centro */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra opcional para efeito */
 }
 
 .profile-picture {
-    width: 220px; /* Tamanho do círculo */
-    height: 220px; /* Tamanho do círculo */
+    width: 200px; /* Tamanho do círculo */
+    height: 200px; /* Tamanho do círculo */
     border-radius: 50%; /* Cria a forma circular */
     overflow: hidden; /* Garante que a imagem não saia do círculo */
     border: 4px solid #ecc9df; /* Cor da borda do círculo */
@@ -72,13 +72,12 @@ h1 {
 }
 
 .buttons button {
-    width: 120px; /* Defina a largura dos botões */
-    height: 120px; /* Defina a altura dos botões */ 
+    width: 90px; /* Defina a largura dos botões */
+    height: 90px; /* Defina a altura dos botões */ 
     font-size: 18px; /* Tamanho da fonte dos botões */
     font-weight: bold; /* Peso da fonte dos botões */
     padding: 15px; /* Adiciona espaço interno aos botões */
     border: none; /* Remove a borda dos botões */
-    
     outline: none; /* Remove o contorno que pode aparecer ao clicar */
 
 }
@@ -113,7 +112,7 @@ h1 {
     display: flex; /* Usa flexbox para alinhar os botões lado a lado */
     justify-content: center; /* Centraliza os botões horizontalmente */
     gap: 20px; /* Espaço entre os botões */
-    margin-top: 20px; /* Espaço acima dos botões */
+    margin-top: -10px; /* Espaço acima dos botões */
 }
 
 .container {
