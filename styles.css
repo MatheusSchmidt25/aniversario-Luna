@@ -18,16 +18,20 @@ body {
 }
 
 .textoLuna{
-    font-family: fantasy;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
     text-align: center;
-    color: #e79fd2;
-    font-size: 40px;
+    color: #FFC7C7;
+    font-size: 65px;
+    margin-top: -10px;
 }
 
 .textoPrincesa{
     text-align: center;
-    color:aqua;
+    color:#736356;
     font-size: 25px;
+    
 }
 
 .container2{
@@ -40,7 +44,8 @@ body {
 }
 
 .container2 > div {
-    background-color: #f0f0f0; /* Cor de fundo para visualização */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #FFC7C7; /* Cor de fundo para visualização */
     border-radius: 25px; /* Bordas arredondadas */
     padding: 10px 20px; /* Espaço interno */
     margin: 0 10px; /* Espaçamento entre as divs */
@@ -49,8 +54,8 @@ body {
 }
 
 .profile-picture {
-    width: 200px; /* Tamanho do círculo */
-    height: 200px; /* Tamanho do círculo */
+    width: 220px; /* Tamanho do círculo */
+    height: 220px; /* Tamanho do círculo */
     border-radius: 50%; /* Cria a forma circular */
     overflow: hidden; /* Garante que a imagem não saia do círculo */
     border: 4px solid #ecc9df; /* Cor da borda do círculo */
@@ -68,17 +73,41 @@ h1 {
 
 .buttons button {
     width: 120px; /* Defina a largura dos botões */
-    height: 120px; /* Defina a altura dos botões */
-    border: 4px transparent; /* Define a borda dos botões */
-    border-radius: 10px; /* Arredonda os cantos dos botões */
-    background-image: url("presencaa.png");
-    color: #030303; /* Cor do texto dos botões */
+    height: 120px; /* Defina a altura dos botões */ 
     font-size: 18px; /* Tamanho da fonte dos botões */
     font-weight: bold; /* Peso da fonte dos botões */
-    cursor: pointer; /* Muda o cursor para uma mão quando sobre o botão */
     padding: 15px; /* Adiciona espaço interno aos botões */
-    transition: all 0.3s ease; /* Transição suave para todas as propriedades */
+    border: none; /* Remove a borda dos botões */
+    
+    outline: none; /* Remove o contorno que pode aparecer ao clicar */
+
 }
+
+.btLocalizacao{
+    background-image: url("confirmar.png");
+    background-size: cover; /* Faz a imagem cobrir todo o botão */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat;
+    background-color: transparent;
+    
+}
+
+.btPresente{
+    background-image: url("presente.png");
+    background-size: cover; /* Faz a imagem cobrir todo o botão */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.btPresenca{
+    background-image: url("Captura\ de\ tela\ 2024-08-29\ 23513.png");
+    background-size: cover; /* Faz a imagem cobrir todo o botão */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
 
 .buttons {
     display: flex; /* Usa flexbox para alinhar os botões lado a lado */
@@ -89,7 +118,6 @@ h1 {
 
 .container {
     text-align: center;
-    margin-top: 540px;
 }
 .icon-text-button .icon {
     width: 15px; /* Define a largura da imagem */

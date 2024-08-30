@@ -1,26 +1,84 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Arial', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-image: url('sugestao.png');
-    background-size: cover; /* Ajusta a imagem para cobrir todo o body */
+    background-image: url('fundoo.png');
+    background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Impede a repetição da imagem */
-    background-position: left center;
+    
 }
+
+
+.textoSugestao{
+    margin-top: 70px;
+    color: #a7568c;
+    text-align: center;
+    font-size: 40px;
+}
+
+.textoLuna{
+    margin-top: -50px;
+    color: #a7568c;
+    text-align: center;
+    font-size: 100px;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    
+}
+
+/* styles.css */
+.container2 {
+    display: flex; /* Usa Flexbox para alinhar os itens em linha */
+    flex-direction: column; /* Organiza os itens em coluna */
+    gap: 20px; /* Espaço entre cada linha de itens */
+}
+
+.item {
+    display: flex; /* Usa Flexbox para alinhar o texto e a div lado a lado */
+    align-items: center; /* Alinha verticalmente o texto com a imagem */
+    gap: 10px; /* Espaço entre a imagem e o texto */
+}
+
+.roupa, .calcado, .brinquedo {
+    width: 100px; /* Define a largura das divs */
+    height: 100px; /* Define a altura das divs */
+    background-size: cover; /* Faz a imagem cobrir toda a div */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+    background-color: transparent; /* Torna o fundo transparente */
+}
+
+.roupa {
+    background-image: url("roupa.png");
+}
+
+.calcado {
+    background-image: url("sapato.png");
+}
+
+.brinquedo {
+    background-image: url("brinquedos.png");
+}
+
+.texto {
+    font-size: 22px; /* Define o tamanho da fonte do texto */
+    font-weight: bold; /* Define o peso da fonte do texto */
+    margin-left: 13px;
+    color: #D88C86;
+}
+
 .btVoltar{
-    height: 70px;
-    width: 200px;
-    margin-top: 700px;
-    padding: 10px;
-    background-color: #a7568c;
-    color: #000000;
-    border: 4px;
-    border-radius: 4px;
-    font-size: 25px;
-    cursor: pointer;
-    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 125px; /* Ajusta a posição horizontal do botão */
+    display: flex; /* Ativa o Flexbox para o alinhamento do texto */
+    height: 70px; /* Define a altura do botão */
+    width: 200px; /* Define a largura do botão */
+    padding: 10px; /* Adiciona espaço interno ao botão */
+    background-color: #a7568c; /* Cor de fundo do botão */
+    color: #000000; /* Cor do texto do botão */
+    border:none;
+    border-radius: 40px; /* Arredonda os cantos do botão */
+    font-size: 30px; /* Tamanho da fonte do texto */
+    font-weight: bold; /* Peso da fonte do texto */
+    text-align: center; /* Centraliza o texto horizontalmente (não necessário com Flexbox, mas pode ajudar com múltiplas linhas) */
+    align-items: center; /* Alinha o texto verticalmente no centro */
+    justify-content: center; /* Centraliza o texto horizontalmente dentro do botão */         
 }
+    
