@@ -67,7 +67,7 @@ body {
 
 .btVoltar{
     margin-top: 50px;
-    margin-left: 125px; /* Ajusta a posição horizontal do botão */
+    margin-left: 100px; /* Ajusta a posição horizontal do botão */
     display: flex; /* Ativa o Flexbox para o alinhamento do texto */
     height: 70px; /* Define a altura do botão */
     width: 200px; /* Define a largura do botão */
