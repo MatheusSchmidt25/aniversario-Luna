@@ -1,0 +1,23 @@
+.imagem{
+    height: 530px;
+    width: 500px;
+    margin-left: -8px;
+    margin-top: -8px;
+    background-image: url("testeLuna.png");
+    background-size: cover; /* Ajusta a imagem para cobrir todo o body */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat;
+}
+body{
+    background-color: #FCFCFB;
+    background-size: cover; /* Ajusta a imagem para cobrir todo o body */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat;
+}
+
+h1{
+    font-size: 24px;
+    text-align: justify;
+    justify-content: center;
+    border-left: 40px;
+}
