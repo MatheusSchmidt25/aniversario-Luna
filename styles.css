@@ -72,8 +72,8 @@ h1 {
 }
 
 .buttons button {
-    width: 90px; /* Defina a largura dos botões */
-    height: 90px; /* Defina a altura dos botões */ 
+    width: 100px; /* Defina a largura dos botões */
+    height: 100px; /* Defina a altura dos botões */ 
     font-size: 18px; /* Tamanho da fonte dos botões */
     font-weight: bold; /* Peso da fonte dos botões */
     padding: 15px; /* Adiciona espaço interno aos botões */
@@ -111,13 +111,28 @@ h1 {
 .buttons {
     display: flex; /* Usa flexbox para alinhar os botões lado a lado */
     justify-content: center; /* Centraliza os botões horizontalmente */
-    gap: 20px; /* Espaço entre os botões */
+    gap: 15px; /* Espaço entre os botões */
     margin-top: -10px; /* Espaço acima dos botões */
 }
 
 .container {
     text-align: center;
 }
+
+.container3{
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    padding: 10px;
+    font-size: 25px;
+    font-size: 15px;
+}
+
+.container3 h3 + h3 {
+    margin-left: 35px; /* Espaço entre os elementos */
+}
+
+
 .icon-text-button .icon {
     width: 15px; /* Define a largura da imagem */
     height: 15px; /* Define a altura da imagem */
