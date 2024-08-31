@@ -8,14 +8,14 @@ body {
 
 .textoSugestao{
     margin-top: 70px;
-    color: #a7568c;
+    color: hsl(323, 75%, 70%);
     text-align: center;
     font-size: 40px;
 }
 
 .textoLuna{
     margin-top: -50px;
-    color: #a7568c;
+    color: hsl(323, 75%, 70%);
     text-align: center;
     font-size: 100px;
     font-family: "Dancing Script", cursive;
@@ -71,7 +71,7 @@ body {
     height: 50px; /* Define a altura do botão */
     width: 150px; /* Define a largura do botão */
     padding: 10px; /* Adiciona espaço interno ao botão */
-    background-color: #a7568c; /* Cor de fundo do botão */
+    background-color: hsl(323, 75%, 70%); /* Cor de fundo do botão */
     color: #000000; /* Cor do texto do botão */
     border-radius: 15px; /* Arredonda os cantos do botão */
     font-size: 30px; /* Tamanho da fonte do texto */
