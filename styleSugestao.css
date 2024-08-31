@@ -1,5 +1,5 @@
 body {
-    background-image: url('fundoo.png');
+    background-image: url('bb.png');
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Impede a repetição da imagem */
     
@@ -47,35 +47,33 @@ body {
 }
 
 .roupa {
-    background-image: url("roupa.png");
-}
-
-.calcado {
-    background-image: url("sapato.png");
+    background-image: url("vestir.png");
+    background-size: 60px;
+    
 }
 
 .brinquedo {
-    background-image: url("brinquedos.png");
+    background-image: url("caixa-de-armazenamento.png");
+    background-size: 60px;
 }
 
 .texto {
     font-size: 22px; /* Define o tamanho da fonte do texto */
     font-weight: bold; /* Define o peso da fonte do texto */
-    margin-left: 13px;
-    color: #D88C86;
+    margin-left: 1px;
+    color: #642c28;
 }
 
 .btVoltar{
     margin-top: 50px;
     margin-left: 100px; /* Ajusta a posição horizontal do botão */
     display: flex; /* Ativa o Flexbox para o alinhamento do texto */
-    height: 70px; /* Define a altura do botão */
-    width: 200px; /* Define a largura do botão */
+    height: 50px; /* Define a altura do botão */
+    width: 150px; /* Define a largura do botão */
     padding: 10px; /* Adiciona espaço interno ao botão */
     background-color: #a7568c; /* Cor de fundo do botão */
     color: #000000; /* Cor do texto do botão */
-    border:none;
-    border-radius: 40px; /* Arredonda os cantos do botão */
+    border-radius: 15px; /* Arredonda os cantos do botão */
     font-size: 30px; /* Tamanho da fonte do texto */
     font-weight: bold; /* Peso da fonte do texto */
     text-align: center; /* Centraliza o texto horizontalmente (não necessário com Flexbox, mas pode ajudar com múltiplas linhas) */

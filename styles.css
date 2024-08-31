@@ -11,8 +11,8 @@ body {
     justify-content: center;
     align-items: center;
 
-    background-image: url('fundoo.png');
-   
+    background-image: url('bb.png');
+    background-size: cover; /* Faz a imagem cobrir toda a área disponível */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Impede a repetição da imagem */
 }
@@ -22,16 +22,31 @@ body {
     font-optical-sizing: auto;
     font-style: normal;
     text-align: center;
-    color: #FFC7C7;
-    font-size: 50px;
+    color: hsl(323, 75%, 70%);
+    font-size: 80px;
     margin-top: -20px;
+    
+}
+
+.aninho{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+    font-size: 50px;
+    margin-top: -30px;
+    font-weight: bold;
+    color: hsl(323, 75%, 70%);
 }
 
 .textoPrincesa{
     text-align: center;
-    color:#736356;
+    color:#020202e0;
     font-size: 20px;
     margin-top: -20px;
+    background-color: #fad5d5;
+    border-radius: 70px;
+    border: 1px solid;
 }
 
 .container2{
@@ -51,6 +66,7 @@ body {
     margin: 0 7px; /* Espaçamento entre as divs */
     text-align: center; /* Alinha o texto ao centro */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra opcional para efeito */
+    border: 1px solid #4b4448;
 }
 
 .profile-picture {
@@ -60,7 +76,7 @@ body {
     overflow: hidden; /* Garante que a imagem não saia do círculo */
     border: 4px solid #ecc9df; /* Cor da borda do círculo */
     margin: 20px auto; /* Centraliza o círculo horizontalmente e adiciona margem vertical */
-    background-image: url('luninha.jpeg'); /* Caminho da imagem */
+    background-image: url('foto_luna.png'); /* Caminho da imagem */
     background-size: cover; /* Ajusta a imagem para cobrir todo o círculo */
     background-repeat: no-repeat; /* Impede que a imagem se repita */
 }
@@ -72,8 +88,8 @@ h1 {
 }
 
 .buttons button {
-    width: 100px; /* Defina a largura dos botões */
-    height: 100px; /* Defina a altura dos botões */ 
+    width: 80px; /* Defina a largura dos botões */
+    height: 80px; /* Defina a altura dos botões */ 
     font-size: 18px; /* Tamanho da fonte dos botões */
     font-weight: bold; /* Peso da fonte dos botões */
     padding: 15px; /* Adiciona espaço interno aos botões */
@@ -83,28 +99,50 @@ h1 {
 }
 
 .btLocalizacao{
-    background-image: url("confirmar.png");
+    background-image: url("mapa.png");
     background-size: cover; /* Faz a imagem cobrir todo o botão */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat;
     background-color: transparent;
-    
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
 }
 
 .btPresente{
-    background-image: url("presente.png");
+    background-image: url("caixa-de-presente.png");
     background-size: cover; /* Faz a imagem cobrir todo o botão */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat;
     background-color: transparent;
+    margin-right: -90px;
+    margin-top: 28px;
 }
 
 .btPresenca{
-    background-image: url("Captura\ de\ tela\ 2024-08-29\ 23513.png");
+    background-image: url("confirmacao_1.png");
     background-size: cover; /* Faz a imagem cobrir todo o botão */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat;
     background-color: transparent;
+    background-size: 57px;
+    margin-left: -90px;
+    margin-top: 30px;
+    background-size: 70px;
+}
+
+.confirmar{
+    margin-left: 16px;    
+    margin-top: -10px;
+}
+
+.localizacao{
+    margin-top: -10px;
+    
+}
+
+.presente{
+    margin-top: -10px;
 }
 
 
@@ -112,7 +150,7 @@ h1 {
     display: flex; /* Usa flexbox para alinhar os botões lado a lado */
     justify-content: center; /* Centraliza os botões horizontalmente */
     gap: 15px; /* Espaço entre os botões */
-    margin-top: -10px; /* Espaço acima dos botões */
+    margin-top: -20px; /* Espaço acima dos botões */
 }
 
 .container {
