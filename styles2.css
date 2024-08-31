@@ -15,6 +15,10 @@ body {
     background-repeat: no-repeat; /* Impede a repetição da imagem */
 }
 
+.data{
+    font-size: 25px;
+    margin-top: -15px;
+}
 .container {
     background-color: #EACBBF;
     border-radius: 8px;

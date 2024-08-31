@@ -60,7 +60,7 @@ body {
 .container2 > div {
     margin-top: 80px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #FFC7C7; /* Cor de fundo para visualização */
+    background-color: #fad5d5; /* Cor de fundo para visualização */
     border-radius: 25px; /* Bordas arredondadas */
     padding: 10px 20px; /* Espaço interno */
     margin: 0 7px; /* Espaçamento entre as divs */
